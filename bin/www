@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+require('babel-core/register');
+var express = require('express')
+var debug = require('debug');
+var app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello Bulding-Blocks!');
+});
+
+var server = app.listen(3005, function () {
+  debug('listening');
+  var port = server.address().port;
+  console.log(`\n Your application is running here: http://localhost:${port}\n`);
+})

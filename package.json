@@ -1,0 +1,35 @@
+{
+  "name": "building-blocks",
+  "version": "0.0.1",
+  "description": "queck building-blocks",
+  "main": "main.js",
+  "bin": {
+    "building-blocks": "www"
+  },
+  "scripts": {
+    "server": "nodemon --inspect ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "debug": "^3.1.0",
+    "nodemon": "^1.17.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifredom/Building-blocks.git"
+  },
+  "keywords": [
+    "building",
+    "blocks"
+  ],
+  "author": "ifredom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifredom/Building-blocks/issues"
+  },
+  "homepage": "https://github.com/ifredom/Building-blocks#readme"
+}
